@@ -1,6 +1,6 @@
 {
    "name": "@balinkltd/alerter",
-   "version": "1.0.13",
+   "version": "1.0.14",
    "description": "A nice greeter",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
