@@ -111,10 +111,10 @@ class Alerter {
           },
         },
       })
-      .then((response) => {
+      .then((response: any) => {
         return response;
       })
-      .catch((error) => {
+      .catch((error: any) => {
         throw new Error('Jira ticket not created: ' + JSON.stringify(error));
       });
   }
@@ -145,10 +145,10 @@ class Alerter {
 
     return await transporter
       .sendMail(mailOptions)
-      .then((response) => {
+      .then((response: any) => {
         return response;
       })
-      .catch((error) => {
+      .catch((error: any) => {
         throw new Error('Email not sent' + JSON.stringify(error));
       });
   }

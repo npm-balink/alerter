@@ -1,9 +1,9 @@
-import { Alert } from './alert';
+import { Alert, AlertLevel } from './alert';
 import { AlertOptions } from './AlertOptions';
 import { AlerterConfig } from './alerterConfig';
 import * as JiraClient from 'jira-client';
 export declare const Greeter: (name: string) => string;
-export declare class Alerter {
+declare class Alerter {
     private readonly config;
     constructor(config: AlerterConfig);
     alert(alert: Alert, options: AlertOptions): Promise<[PromiseSettledResult<import("nodemailer/lib/smtp-transport").SentMessageInfo | null>, PromiseSettledResult<JiraClient.JsonResponse | null | undefined>, PromiseSettledResult<any>]>;
@@ -41,3 +41,5 @@ export declare class Alerter {
      */
     private createEmailList;
 }
+export default Alerter;
+export { AlerterConfig, AlertLevel };
