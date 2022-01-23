@@ -1,5 +1,3 @@
-import Alerter,{AlerterConfig,AlertLevel} from ".";
+import Alerter, { AlerterConfig, AlertLevel } from '.';
 
 export const Greeter = (name: string) => `Hello ${name}`;
-
-

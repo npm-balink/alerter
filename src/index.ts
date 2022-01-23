@@ -8,10 +8,7 @@ import * as nodemailer from 'nodemailer';
 import * as JiraClient from 'jira-client';
 export const Greeter = (name: string) => `Hello ${name}`;
 
- 
-
-
- class Alerter {
+class Alerter {
   constructor(private readonly config: AlerterConfig) {}
 
   public async alert(alert: Alert, options: AlertOptions) {
@@ -190,7 +187,7 @@ function createMessage(alert: Alert) {
     '\n and in region:' +
     alert.region
   );
-} 
+}
 
-export default Alerter ;
-export {AlerterConfig,AlertLevel};
+export default Alerter;
+export { AlerterConfig, AlertLevel };
