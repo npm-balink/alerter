@@ -69,7 +69,8 @@ This code defines the communication channels with which the module will communic
 
 This code create an Alerter object and insert the explanation of the relevant error.
 
-In addition, defines whether to use all or only some of the communication channels.
+> 👉 You have the option to send only part of our 3 communication channels
+> you can simply define whether to use all or only some of the communication channels.
 
 ```TypeScript
   const alerter = new Alerter(config);
