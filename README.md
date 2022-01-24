@@ -72,7 +72,7 @@ This code create an Alerter object and insert the explanation of the relevant er
 > 👉 You have the option to decide whether to use all or only some of the communication channels.
 >  
 
-```{.TypeScript .numberLines .lineAnchors}
+```TypeScript
   const alerter = new Alerter(config);
 
     alerter.alert(
