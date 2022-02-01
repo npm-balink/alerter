@@ -47,6 +47,8 @@
       "access": "public"
    },
    "dependencies": {
-      "@balinkltd/alerter": "^1.0.3"
+      "@balinkltd/alerter": "^1.0.3",
+            "jira-client": "^8.0.0",
+      "trello-node-api": "^0.0.9"
    }
 }
