@@ -190,4 +190,4 @@ function createMessage(alert: Alert) {
 }
 
 export default Alerter;
-export { AlerterConfig, AlertLevel };
+export { AlerterConfig, AlertLevel, Alert, AlertOptions};
