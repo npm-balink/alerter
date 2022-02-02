@@ -41,4 +41,4 @@ declare class Alerter {
     private createEmailList;
 }
 export default Alerter;
-export { AlerterConfig, AlertLevel };
+export { AlerterConfig, AlertLevel, Alert, AlertOptions };
