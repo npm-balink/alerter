@@ -1,6 +1,6 @@
 {
    "name": "@balinkltd/alerter",
-   "version": "1.0.23",
+   "version": "1.0.24",
    "description": "alerter module",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",

@@ -171,9 +171,9 @@ class Alerter {
 }
 
 function createSubject(alert: Alert): string {
-  return `[${AlertLevel[alert.level]} alert][${alert.date.toISOString()}] in ${alert.projectName} (Region: ${
+  return `[${AlertLevel[alert.level]}] in ${alert.projectName} (Region: ${
     alert.region
-  }) (Environment: ${alert.env}) - ${alert.subject}`;
+  }) (Environment: ${alert.env}) - ${alert.subject} [${alert.date.toISOString()}] `;
 }
 
 function createMessage(alert: Alert) {
